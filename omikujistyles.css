@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body{
+    background-color: #efefef;
+}
+
+#btn{
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ef454a;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0px 10px #D1483E;
+    border: 3px solid #D1483E;
+    user-select: none;
+}
+
+#btn:hover{
+    opacity:1;
+}
+
+#btn.pushed{
+    box-shadow: none;
+    position: relative;
+    top: 10px;
+}
